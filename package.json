@@ -1,0 +1,32 @@
+{
+  "name": "geonet-cli",
+  "version": "1.0.0",
+  "description": "CLI for Geonet.nz api",
+  "main": "dist/app.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zainrax/Geonet-CLI.git"
+  },
+  "keywords": [
+    "Geonet",
+    "CLI",
+    "typescript"
+  ],
+  "author": "Patrick Baxter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zainrax/Geonet-CLI/issues"
+  },
+  "homepage": "https://github.com/Zainrax/Geonet-CLI#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.19.0",
+    "typescript": "^4.1.3"
+  }
+}
