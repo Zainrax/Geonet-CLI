@@ -4,10 +4,11 @@ Command line tool written in node/typescript that fetches information on earthqu
 
 ## Run
 Requires [Node](https://nodejs.org/en/) LTS or current.
-> git clone https://github.com/Zainrax/Geonet-CLI.git && cd Geonet-CLI
-> npm install
-> npm start
-
+``` 
+git clone https://github.com/Zainrax/Geonet-CLI.git && cd Geonet-CLI
+npm install
+npm start
+```
 ### Runtime Dependencies
 - [node-fetch](https://www.npmjs.com/package/node-fetch)
 
